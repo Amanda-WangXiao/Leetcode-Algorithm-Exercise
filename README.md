@@ -3,16 +3,15 @@ Leetcode算法练习
   
 # Directory  
   
-## Java    
-### Easy  
+## Easy Level  
+### Java  
 1_TwoSum  
 9_PalindromeNumber  
 13_RomanToInteger  
 14_LongestCommonPrefix  
 20_ValidParentheses  
   
-# C  
-### Easy  
+### C    
 1_TwoSum  
 7_ReverseInteger  
   
