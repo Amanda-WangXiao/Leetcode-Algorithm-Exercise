@@ -16,6 +16,7 @@ Leetcode算法练习
 28_ImplementStrStr()  
 35_SearchInsertPosition  
 53_MaximumSubarray    
+66_PlusOne  
   
 ### C    
 1_TwoSum  
