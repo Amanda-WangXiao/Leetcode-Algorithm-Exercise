@@ -26,6 +26,15 @@ Leetcode算法练习
 125_ValidPalindrome  
 136_SingleNumber  
 167_TwoSumII  
+168_ExcelSheetColumnTitle  
+169_MajorityElement  
+171_ExcelSheetColumnNumber  
+189_RotateArray  
+217_ContainsDuplicate  
+231_PowerOfTwo  
+268_MissingNumber  
+278_FirstBadVersion  
+283_MoveZeroes  
   
   
 ### C    
