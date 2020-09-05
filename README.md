@@ -20,6 +20,7 @@ Leetcode算法练习
 67_AddBinary  
 69_Sqrt(x)  
 70_ClimbStairs  
+83_RemoveDuplicatesFromSortedList  
 88_MergeSortedArray  
 121_BestTimeToBuyAndSellStock  
 122_BestTimeToBuyAndSellStockII  
@@ -32,9 +33,15 @@ Leetcode算法练习
 189_RotateArray  
 217_ContainsDuplicate  
 231_PowerOfTwo  
+258_AddDigits  
+263_UglyNumber  
 268_MissingNumber  
 278_FirstBadVersion  
 283_MoveZeroes  
+290_WordPattern  
+292_NimGame  
+303_RangeSumQuery  
+326_PowerOfThree  
   
   
 ### C    
