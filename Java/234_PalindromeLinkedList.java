@@ -6,7 +6,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution {	//	5 ms	42.6 MB
 	public boolean isPalindrome(ListNode head) {
 		ListNode temp=head;
 		var s=new Stack<ListNode>();
@@ -14,11 +14,11 @@ class Solution {
 			s.push(temp);
 			temp=temp.next;
 		}
-		temp=head;
-		while(s.empty()!=false){
-			ListNode cur=s.pop();
-			if(temp.val!=cur.val) return false; 
-			temp=temp.next;
+		ListNode node_1=head;
+		while(s.empty()!=true){
+			ListNode node_2=s.pop();
+			if(node_1.val!=node_2.val) return false; 
+			node_1=node_1.next;
 		}
 		return true;
 	}
