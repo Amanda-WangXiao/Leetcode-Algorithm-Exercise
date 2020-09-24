@@ -23,3 +23,23 @@ class Solution {	//	5 ms	42.6 MB
 		return true;
 	}
 }
+
+
+class Solution {	//	6 ms	42.8 MB
+	public boolean isPalindrome(ListNode head) {
+		var l=new ArrayList<Integer>();
+		ListNode temp=head;
+		while(temp!=null){
+			l.add(temp.val);
+			temp=temp.next;
+		}
+		int left=0;
+		int right=l.size()-1;
+		while(left<right){
+			if(l.get(left).equals(l.get(right))==false) return false;
+			left++;
+			right--;
+		}
+		return true;
+	}
+}
