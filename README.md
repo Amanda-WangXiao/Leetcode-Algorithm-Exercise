@@ -25,6 +25,7 @@ Leetcode算法练习
 88_MergeSortedArray  
 100_SameTree  
 101_SymmetricTree  
+104_MaximumDepthOfBinaryTree  
 121_BestTimeToBuyAndSellStock  
 122_BestTimeToBuyAndSellStockII  
 125_ValidPalindrome  
