@@ -49,17 +49,33 @@ class Solution {    //  Out of memory limit
         ListNode p;
         p=first;
         ListNode new_node;
+
+        int x1,x2;
+
         while(l1!=null || l2!=null){
-            if(l1==null) l1.val=0;
-            if(l2==null) l2.val=0;
-            int temp = l1.val+l2.val;
+            if(l1==null) x1 = 0;
+            else x1 = l1.val;
+            if(l2==null) x2 = 0;
+            else x2 = l2.val;
+            int temp = x1+x2;
+
             if(temp>=10){
-                l1.next.val=l1.next.val+1;
-                new_node = new ListNode(temp-10);
+                if(l1.next!=null) {
+                    l1.next.val=l1.next.val+1;
+                    new_node = new ListNode(temp-10);
+                }
+                else if(l2.next!=null){
+                    l2.next.val=l2.next.val+1;
+                    new_node = new ListNode(temp-10);
+                }
+                else new_node = new ListNode(1);
             }
             else new_node = new ListNode(temp);
+
             p.next=new_node;
             p=p.next;
+            if(l1.next!=null) l1=l1.next;
+            if(l2.next!=null) l2=l2.next;
         }
 
         return first.next;
