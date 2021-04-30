@@ -1,4 +1,4 @@
-# Leetcode Algorithm Exercise  
+# Leetcode Exercise  
 Leetcode算法练习  
   
 # Directory  
@@ -74,6 +74,7 @@ Leetcode算法练习
 99_BinaryTreeInorderTraversal  
 198_HouseRobber  
 633_SumofSquareNumbers  
+137_SingleNumberII  
 
 ## Database  
 ### Easy Level  
