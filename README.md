@@ -1,11 +1,9 @@
 # Leetcode Exercise  
 Leetcode算法练习  
   
-# Directory  
-  
-## Algorithms  
-### Easy Level  
-#### Java  
+# Algorithms  
+## Easy Level  
+### Java  
 1_TwoSum  
 9_PalindromeNumber  
 13_RomanToInteger  
@@ -63,12 +61,12 @@ Leetcode算法练习
 938_RangeSumofBST  
   
   
-#### C    
+### C    
 1_TwoSum  
 7_ReverseInteger  
   
-### Mid Level  
-#### Java  
+## Mid Level  
+### Java  
 【Unresolved】2_AddTwoNumbers.java  
 80_RemoveDuplicatesFromSortedArray-II  
 99_BinaryTreeInorderTraversal  
@@ -76,8 +74,8 @@ Leetcode算法练习
 633_SumofSquareNumbers  
 137_SingleNumberII  
 
-## Database  
-### Easy Level  
-#### MySQL  
+# Database  
+## Easy Level  
+### MySQL  
 175_CombineTwoTables  
 
