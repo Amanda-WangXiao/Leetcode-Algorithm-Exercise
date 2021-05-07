@@ -59,6 +59,7 @@ Leetcode算法练习
 783_MinimumDistanceBetweenBSTNodes  
 897_IncreasingOrderSearchTree  
 938_RangeSumofBST  
+1486_XorOperationInAnArray  
 1720_DecodeXoredArray  
   
   
