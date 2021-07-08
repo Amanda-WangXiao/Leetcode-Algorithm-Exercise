@@ -72,7 +72,7 @@ Leetcode算法练习
   
 ## Mid Level  
 ### Java  
-2_AddTwoNumbers.java  
+2_AddTwoNumbers    
 80_RemoveDuplicatesFromSortedArray-II  
 99_BinaryTreeInorderTraversal  
 137_SingleNumberII  
